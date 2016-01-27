@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - Overcoat (3.2.1):
+    - Overcoat/NSURLConnection (= 3.2.1)
+    - Overcoat/NSURLSession (= 3.2.1)
+  - Overcoat/Core (3.2.1):
+    - AFNetworking/Serialization
+    - Mantle
+  - Overcoat/NSURLConnection (3.2.1):
+    - AFNetworking/NSURLConnection
+    - Overcoat/Core
+  - Overcoat/NSURLSession (3.2.1):
+    - AFNetworking/NSURLSession
+    - Overcoat/Core
+  - Reachability (3.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SVPullToRefresh (0.4.1)
+  - TTTAttributedLabel (1.13.4)
+
+DEPENDENCIES:
+  - Overcoat
+  - Reachability
+  - SDWebImage
+  - SVPullToRefresh
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  Overcoat: ce2bd0bfee6e300839cb244799c9e1e1aa70c06a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+
+COCOAPODS: 0.38.2
